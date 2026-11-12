@@ -1,0 +1,15 @@
+CREATE DATABASE sales;
+
+USE sales;
+
+CREATE TABLE sales_data(
+product_id INTEGER,
+customer_id INTEGER,
+price DECIMAL(10,2),
+quantity integer,
+`timestamp` DATETIME
+
+)
+
+
+SHOW TABLES;
